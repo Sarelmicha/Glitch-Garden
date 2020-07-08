@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4032463365977990990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8240320206807892191}
+  - component: {fileID: 197564986}
+  - component: {fileID: 371273392}
+  - component: {fileID: 770298837}
+  - component: {fileID: 1325098091}
+  - component: {fileID: 1474298318}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8240320206807892191
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4032463365977990990}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.53, y: 4.82, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &197564986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4032463365977990990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c90255f673199da458c2d9fe54ecb212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minSpawnDelay: 1
+  maxSpawnDelay: 5
+  attackersPrefab:
+  - {fileID: 2397465221866309604, guid: b386e0fd188f1f64998a6edeaebf6de6, type: 3}
+  - {fileID: 9157275283509648168, guid: ccf167fb54e44b8459d1b1e6c18a29c5, type: 3}
+  maxYPosition: 4
+  minYPosition: 1
+--- !u!114 &371273392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4032463365977990990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c90255f673199da458c2d9fe54ecb212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minSpawnDelay: 1
+  maxSpawnDelay: 5
+  attackersPrefab:
+  - {fileID: 2397465221866309604, guid: b386e0fd188f1f64998a6edeaebf6de6, type: 3}
+  - {fileID: 9157275283509648168, guid: ccf167fb54e44b8459d1b1e6c18a29c5, type: 3}
+  maxYPosition: 4
+  minYPosition: 1
+--- !u!114 &770298837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4032463365977990990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c90255f673199da458c2d9fe54ecb212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minSpawnDelay: 1
+  maxSpawnDelay: 5
+  attackersPrefab:
+  - {fileID: 2397465221866309604, guid: b386e0fd188f1f64998a6edeaebf6de6, type: 3}
+  - {fileID: 9157275283509648168, guid: ccf167fb54e44b8459d1b1e6c18a29c5, type: 3}
+  maxYPosition: 4
+  minYPosition: 1
+--- !u!114 &1325098091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4032463365977990990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c90255f673199da458c2d9fe54ecb212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minSpawnDelay: 1
+  maxSpawnDelay: 5
+  attackersPrefab:
+  - {fileID: 2397465221866309604, guid: b386e0fd188f1f64998a6edeaebf6de6, type: 3}
+  - {fileID: 9157275283509648168, guid: ccf167fb54e44b8459d1b1e6c18a29c5, type: 3}
+  maxYPosition: 4
+  minYPosition: 1
+--- !u!114 &1474298318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4032463365977990990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c90255f673199da458c2d9fe54ecb212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minSpawnDelay: 1
+  maxSpawnDelay: 5
+  attackersPrefab:
+  - {fileID: 2397465221866309604, guid: b386e0fd188f1f64998a6edeaebf6de6, type: 3}
+  - {fileID: 9157275283509648168, guid: ccf167fb54e44b8459d1b1e6c18a29c5, type: 3}
+  maxYPosition: 4
+  minYPosition: 1
